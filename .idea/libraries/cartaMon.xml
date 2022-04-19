@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cartaMon">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/cartaMon.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -28,10 +28,10 @@ public class frmAvatar extends javax.swing.JFrame {
         imgSelected = false;
         this.nombre = nombre;
         this.urlImageAvatar = "";
-        jLabel5.setText("");
-        jLabel6.setText("");
-        jLabel5.setIcon(new ImageIcon("src\\cartamon\\images\\avatar1.png"));
-        jLabel6.setIcon(new ImageIcon("src\\cartamon\\images\\avatar2.png"));
+       // jLabel5.setText("");
+        //jLabel6.setText("");
+       // jLabel5.setIcon(new ImageIcon("src\\resources\\cartamon\\images\\avatar1.png"));
+       //jLabel6.setIcon(new ImageIcon("src\\resources\\cartamon\\images\\avatar2.png"));
     }
 
     /**
@@ -68,14 +68,14 @@ public class frmAvatar extends javax.swing.JFrame {
             }
         });
 
-        jLabel5.setText("jLabel5");
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/cartamon/images/avatar1.png"))); // NOI18N
         jLabel5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel5MouseClicked(evt);
             }
         });
 
-        jLabel6.setText("jLabel5");
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/cartamon/images/avatar2.png"))); // NOI18N
         jLabel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel6MouseClicked(evt);
@@ -101,7 +101,7 @@ public class frmAvatar extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 190, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel2))))
-                .addContainerGap(176, Short.MAX_VALUE))
+                .addContainerGap(114, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -116,7 +116,7 @@ public class frmAvatar extends javax.swing.JFrame {
                     .addComponent(jLabel5))
                 .addGap(59, 59, 59)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(95, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();

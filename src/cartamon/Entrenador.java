@@ -17,9 +17,9 @@ public class Entrenador {
         this.nombre = nombre;
         this.dinero = dinero = 1000;
         this.mascotas = new Mascota[3];
-        this.mascotas[0] = new Mascota("Charmander", 1, EtapaMascota.MUERTO,"src\\cartamon\\images\\Charmander.png");
-        this.mascotas[1] = new Mascota("Bulbasur", 1, EtapaMascota.MUERTO,"src\\cartamon\\images\\bulasur.png");
-        this.mascotas[2] = new Mascota("Bulbasur", 1, EtapaMascota.MUERTO,"src\\cartamon\\images\\bulasur.png");
+        this.mascotas[0] = new Mascota("Charmander", 1, EtapaMascota.MUERTO,"src\\resources\\cartamon\\images\\Charmander.png");
+        this.mascotas[1] = new Mascota("Bulbasur", 1, EtapaMascota.MUERTO,"src\\resources\\cartamon\\images\\bulasur.png");
+        this.mascotas[2] = new Mascota("Bulbasur", 1, EtapaMascota.MUERTO,"src\\resources\\cartamon\\images\\bulasur.png");
         this.urlFoto = url;
     }
 

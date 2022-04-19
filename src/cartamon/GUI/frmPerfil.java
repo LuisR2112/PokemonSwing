@@ -77,6 +77,7 @@ public class frmPerfil extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/cartamon/images/avatar1.png"))); // NOI18N
         jLabel1.setText("jLabel1");
 
         jLabel2.setText("jLabel1");
